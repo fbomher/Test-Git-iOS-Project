@@ -21,6 +21,7 @@
 		60F32AC718D62F0A00BD78E8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60F32AA918D62F0A00BD78E8 /* UIKit.framework */; };
 		60F32ACF18D62F0A00BD78E8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 60F32ACD18D62F0A00BD78E8 /* InfoPlist.strings */; };
 		60F32AD118D62F0A00BD78E8 /* GIT_TestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 60F32AD018D62F0A00BD78E8 /* GIT_TestTests.m */; };
+		60F32ADC18D632CE00BD78E8 /* FBTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 60F32ADB18D632CE00BD78E8 /* FBTest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		60F32ACC18D62F0A00BD78E8 /* GIT TestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GIT TestTests-Info.plist"; sourceTree = "<group>"; };
 		60F32ACE18D62F0A00BD78E8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		60F32AD018D62F0A00BD78E8 /* GIT_TestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GIT_TestTests.m; sourceTree = "<group>"; };
+		60F32ADA18D632CE00BD78E8 /* FBTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBTest.h; sourceTree = "<group>"; };
+		60F32ADB18D632CE00BD78E8 /* FBTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBTest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +85,8 @@
 		60F32A9918D62F0A00BD78E8 = {
 			isa = PBXGroup;
 			children = (
+				60F32ADA18D632CE00BD78E8 /* FBTest.h */,
+				60F32ADB18D632CE00BD78E8 /* FBTest.m */,
 				60F32AAB18D62F0A00BD78E8 /* GIT Test */,
 				60F32ACA18D62F0A00BD78E8 /* GIT TestTests */,
 				60F32AA418D62F0A00BD78E8 /* Frameworks */,
@@ -253,6 +258,7 @@
 				60F32AB618D62F0A00BD78E8 /* FBAppDelegate.m in Sources */,
 				60F32AB218D62F0A00BD78E8 /* main.m in Sources */,
 				60F32ABC18D62F0A00BD78E8 /* FBViewController.m in Sources */,
+				60F32ADC18D632CE00BD78E8 /* FBTest.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
